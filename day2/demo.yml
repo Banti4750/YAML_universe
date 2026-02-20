@@ -32,3 +32,8 @@ food:
 example_literal:
   - This is a multi-line string
   - that preserves newlines.
+
+---
+cities: ["New York", "Los Angeles", "Chicago"]
+---
+{ name: "John Doe", age: 30, city: "New York" }
