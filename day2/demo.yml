@@ -1,0 +1,34 @@
+"apple": "iam an apple"
+"banana": "iam a banana"
+1: "iam a number"
+true: "iam a boolean"
+
+---
+# list
+- apple
+- banana
+
+---
+# dictionary
+apple: "iam an apple"
+banana: "iam a banana"
+number: 1
+boolean: true
+---
+# nested dictionary
+food:
+  vegetables: tomatoes
+  fruits:
+    citrics: oranges
+    tropical: bananas
+    nuts: peanuts
+    sweets: raisins
+
+---
+# block style
+#block style is used to write multi-line strings. It is denoted by the pipe symbol (|) for literal style, which preserves newlines, and the greater-than
+#symbol (>) for folded style, which replaces newlines with spaces.
+
+example_literal:
+  - This is a multi-line string
+  - that preserves newlines.
